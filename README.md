@@ -2,7 +2,7 @@
 
 面向手机 App、网站、PC 软件和配套后端的独立开发手册，当前版本 **v1.0**。
 
-本仓库专门管理纯软件开发，完整定义角色、架构、工作包、开发环境、代码质量、验收、发布与维护规则。嵌入式开发继续使用 [ai-project-playbook](https://github.com/zhangguotao05-zgt/ai-project-playbook)；两个仓库分别维护、分别版本化，互不作为执行依赖。
+本仓库专门管理纯软件开发，完整定义角色、架构、工作包、开发环境、代码质量、验收、发布与维护规则。
 
 ## 阅读与使用
 
@@ -22,15 +22,6 @@
 - 完整功能工作包、按影响范围验证、有效结果复用和真实 Issue 关闭条件。
 - 构建、CI、安装升级、部署、回滚、监控、备份恢复、隐私与依赖许可。
 - Flutter＋后端、静态官网、Electron 客户端三类示例。
-
-## 两个仓库的分工
-
-| 仓库 | 适用范围 |
-| --- | --- |
-| [software-project-playbook](https://github.com/zhangguotao05-zgt/software-project-playbook) | App、Web、PC、API、数据库与软件服务 |
-| [ai-project-playbook](https://github.com/zhangguotao05-zgt/ai-project-playbook) | 嵌入式、固件、硬件协作、烧录和设备台架 |
-
-两个仓库可以使用相似的角色代号和质量原则，各自的完整规则以各自版本为准。纯软件项目不继承烧录、板测或硬件专业交接流程。
 
 ## 目录
 
